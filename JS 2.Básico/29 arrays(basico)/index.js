@@ -1,0 +1,10 @@
+const alunos = ['luiz','maria','joao'];
+alunos[alunos.length] ='luiza';
+//alunos.push('julia');
+//alunos.unshift('pedro');
+//alunos.pop();
+//alunos.shift();
+//delete alunos[1];
+console.log(alunos);
+console.log(typeof alunos);
+console.log(alunos instanceof Array);
