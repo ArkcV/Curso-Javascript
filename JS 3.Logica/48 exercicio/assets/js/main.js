@@ -71,8 +71,7 @@ function nameWeek(Numeromes){
 };
 
 function zero(numzero){
-    return numzero >= 10 ? numzero : `0${numzero}`;
-
+    return numzero >= 10 ? numzero : `0${numzero}`
 }
 
 function criarData(data){
