@@ -50,13 +50,13 @@ falaOi();*/
 falaOi();*/
 
 
-console.log(sobrenome);
+
+
+//llconsole.log(nome);
 //Hosting - ele vai elevar a declaracao
 // isso acontece com var e function pra o topo do arquivo
 // com let isso n acontece
 
-var sobrenome = "miranda"
+//var sobrenome = "miranda"
 
-const func = function (){ // ness caso isso n acontece so com a palavra funcao
-
-};
+//const func = function (){ // ness caso isso n acontece so com a palavra funcao};

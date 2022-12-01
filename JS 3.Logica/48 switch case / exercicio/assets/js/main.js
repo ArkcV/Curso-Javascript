@@ -74,7 +74,7 @@ function zero(numzero){
     return numzero >= 10 ? numzero : `0${numzero}`
 }
 
-function criarData(data){
+function criarData(data){y
     const diaSemana = data.getDay();
     const Numeromes = data.getMonth();
 
