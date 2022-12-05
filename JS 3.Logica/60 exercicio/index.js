@@ -1,6 +1,3 @@
-// escreva uma funcao que recebe 2 numeros e retorne o maior deles
-//refatorar melhoria
-
 /*function max(x, y) {
     if(x > y){
         return x;
