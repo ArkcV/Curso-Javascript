@@ -24,24 +24,26 @@ function iniciarRelogio () {
 document.addEventListener('click',function(e){
     const el = e.target;
 
+
     if (el.classList.contains('iniciar')) {
-        iniciarRelogio();
-        clearInterval(timer);
-        relogio.classList.remove('pausado');
         console.log('Você clicou em iniciar');
+        relogio.classList.remove('pausado');
+        clearInterval(timer);
+        iniciarRelogio();
+    }
+
+    if(el.classList.contains('zerar')) {
+        console.log('Você clicou em zera');
+        clearInterval(timer);
+        relogio.innerHTML = "00:00:00";
+        segundos = 0;
+        relogio.classList.remove('pausado');
     };
 
     if (el.classList.contains('pausar')) {
-        clearInterval(timer);
-        relogio.classList.add('pausado');
         console.log('Você clicou em pausar');
+        clearInterval(timer);  
+        relogio.classList.add('pausado');
     };
 
-    if(el.classList.contains('zerar')) {
-        clearInterval(timer);
-        relogio.classList.remove('pausado');
-        segundos = 0;
-        relogio.innerHTML = "00:00:00";
-        console.log('Você clicou em zera');
-    };
 });
