@@ -1,6 +1,9 @@
 // declaracao de funcao / (function hosting)
 
 falaOi();
+
+
+
 function falaOi(){
     console.log('Oi')
 };
@@ -9,15 +12,15 @@ function falaOi(){
 //function expression
 
 const souUmDado = function nomeDaFuncao() {
-    console.log ('sou um dado abaixo');
+    console.log ('sou um dado');
 };
 
 
-function excutaFuncao (funcao){
-    console.log('vou executar sua funcao')
+function executaFuncao (funcao){
+    console.log('vou executar sua funcao abaixo')
     funcao();
 }
-excutaFuncao(souUmDado);
+executaFuncao(souUmDado);
 
 
 // Arrow function

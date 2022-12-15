@@ -1,7 +1,7 @@
 /*function funcao () {
     console.log(arguments);
 }
-funcao('valor',1 ,2,3);// <- argumento e pra suprir o valor do paramentro*/
+funcao('valor',1 ,2, 3);// <- argumento e pra suprir o valor do paramentro*/
 
 
 /* argumentos que sustenta todos os argumentos enviados
@@ -36,6 +36,7 @@ funcao(2);*/
 let obj = { nome:'luiz', sobrenome: 'otavio', idade: 20 };
 funcao(obj);*/
 
+
 /*function funcao([valor1, valoar2, valor3 ]) {
     console.log(valor1, valoar2, valor3);
 }
@@ -43,11 +44,11 @@ funcao(obj);*/
 funcao(['luiz','otavio',20]);*/
 
 
-function conta(operador, acumulador, ...numeros) {
+/*function conta(operador, acumulador, ...numeros) {
     for(let numero of numeros) {
     if (operador === '+') acumulador += numero;
 
     }
     console.log(acumulador)
 }
-conta('+',0, 20, 30, 40, 50);
+conta('+',0, 20, 30, 40, 50);*/
