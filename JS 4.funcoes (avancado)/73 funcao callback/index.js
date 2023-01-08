@@ -1,4 +1,6 @@
- function rand(min = 1000, max = 3000) {
+/*CallBack e uma funcao que pode ou nao ser recebida no parametro*/ 
+
+function rand(min = 1000, max = 3000) {
     const num = Math.random() * (max - min) + min;
     return Math.floor(num);
  }

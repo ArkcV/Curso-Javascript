@@ -16,6 +16,6 @@ setTimeout(function () {
 },1000);
 
 setTimeout(function () {
-    console.log('ola,mundo');
+    console.log('Ola,mundo!');
 },5000);
 

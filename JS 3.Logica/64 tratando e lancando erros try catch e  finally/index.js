@@ -30,13 +30,19 @@ finally{
      
  }
  finally {
-  console.log('FINALLY: Eu sempre sou execultado');
+  console.log('FINALLY: Eu sempre sou 
+    console.log(i,fizzBuzz(i));
+};
+    console.log(i,fizzBuzz(i));
+};
+    console.log(i,fizzBuzz(i));
+};');
      
  }*/
 
 function retorneHora (data) {
     if(data && !(data instanceof Date)){
-        throw new TypeError ('Esperando instancai de Date.');
+        throw new TypeError ('Esperando instancia de Date.');
     }
     if (!data) {
         data = new Date();
@@ -50,4 +56,4 @@ const hora = retorneHora();
 console.log(hora);
 
 //retorneHora(11);
-//retorneHora(new Date());
+retorneHora(new Date());
