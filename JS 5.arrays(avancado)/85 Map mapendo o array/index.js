@@ -10,7 +10,7 @@ console.log(numerosEmDobro);*/
 
 /*para cada elemento:
 retorne apenas um string com o nome da pessoa
-remova apenas a chave "nome* do objeto
+remova apenas a chave nome do objeto
 adicione uma chave id em cada objeto*/
 
   

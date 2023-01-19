@@ -1,5 +1,5 @@
 /*IIFE -> Immediately invoked function expression*/
-// Fugir do escopo global essa funcao precisa esta dentro do paretenses
+// Fugir do escopo global essa funcao precisa esta dentro do paretense
 (function (idade,peso,altura){
    const sobrenome ='Miranda';
    function CriaNome(nome) {

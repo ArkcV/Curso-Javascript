@@ -1,7 +1,7 @@
 /*Laser Evaluation
-Ela pode ser pausar o codigo
+Ela pode ser pausar o codigo 
 Ela vai retorna de um em um 
-Pra se vero valor preciso usa o next*/
+Pra se ver o valor preciso usa o next*/
 
 /*function* geradora1 () {
     // Codigo
@@ -34,8 +34,6 @@ const g4 = geradora4();
 for(let valor of g4) {
     console.log(valor);
 }
-
-
 
 
 function* geradora5(){
