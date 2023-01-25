@@ -1,6 +1,6 @@
 /*Map - ele e parecido com o filter vai alterar valores do array
 recebemos o array do mesmo tamanho com os valores alterados
-assim sedno um novo array e tambem recece callback*/
+assim sendo um novo array e tambem recebe callback*/
 
 // Dobre os numeros
 /*const numeros = [5, 50, 80, 1, 2, 3, 5, 7, 8, 11, 15, 22, 27];
@@ -23,13 +23,12 @@ const pessoas = [
 
 const nomes = pessoas.map(obj => obj.nome);
 const idades  = pessoas.map(obj => ({idade: obj.idade}));
-const comIds = pessoas.map(function(obj,indice){
-    // transformando o objeto no original
+const comIds = pessoas.map(function(obj,indice){7
     const newObj = {...obj };
-    newObj.id = indice;
+    newObj.id = indice;//sofre alteracao esta interado objeto original
     return newObj;
 });
 //console.log(nomes);
 //console.log(idades);
-//console.log(comIds);//sofreu alteracao esta sendo interado objeto original
-console.log(pessoas)
+console.log(comIds);//sofreu alteracao esta sendo interado objeto original
+//console.log(pessoas)

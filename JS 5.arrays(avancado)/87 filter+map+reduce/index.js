@@ -11,8 +11,8 @@
   }).reduce(function(acumulador, valor){
     return acumulador + valor
 
-  })
+  });
  
-  console.log(numerosPares)//[80,2,8]
-  console.log(numerosPares);//[160,4,16]
-  console.log(numerosPares)//180
+  //console.log(numerosPares)//[80,2,8]
+  //console.log(numerosPares);//[160,4,16]
+  //console.log(numerosPares)//180

@@ -15,7 +15,7 @@ console.log(numerosFiltro);
 
 
 
-//retorne pessoas que tem  o nome com 5 letras ou mais  com mais de 50 e que terina com a letra a
+//retorne pessoas que tem  o nome com 5 letras ou mais  com mais de 50 e que termina com a letra a
 
 const pessoas = [
     {nome : 'luiz', idade: 62 },
@@ -29,7 +29,7 @@ const pessComNomeG = pessoas.filter(obj=> obj.nome.length >= 5
 console.log(pessComNomeG);
 
 const pessComMaiorID = pessoas.filter(obj => obj.idade > 30)
-console.log(pessComMaiorID);;
+console.log(pessComMaiorID);
 
 const pessComLetraA = pessoas.filter(obj => obj.nome.toLowerCase().endsWith('a'));
 console.log(pessComLetraA);
