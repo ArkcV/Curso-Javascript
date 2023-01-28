@@ -46,6 +46,8 @@ function criaPessoa(nome, sobrenome,peso,altura) {
         }
     };
 }
+
+
 const p1 = criaPessoa('luiz', 'otavio', 80, 1.80);
 p1.nomeCompleto = 'maria oliveira silva'//setter
 console.log(p1.nomeCompleto); // com getter 
