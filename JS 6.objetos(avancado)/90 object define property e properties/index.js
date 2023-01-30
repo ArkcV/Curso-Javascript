@@ -21,6 +21,7 @@
         configurable: true // configuravel
 
         },
+
         preco: {
         enumerable: true,// mostra a chave
         value: preco,  // valor
