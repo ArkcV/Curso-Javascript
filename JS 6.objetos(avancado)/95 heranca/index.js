@@ -31,7 +31,7 @@ function Camiseta (nome, preco, cor) {
 Camiseta.prototype = Object.create(Produto.prototype);
 Camiseta.prototype.constructor = Camiseta;
 
-const camiseta = new Camiseta ('Regata', 15.00, 'Preta');
+const camiseta = new Camiseta ('Regata', 15.0, 'Preta');
 camiseta.desconto(10);
 console.log(camiseta);
 
