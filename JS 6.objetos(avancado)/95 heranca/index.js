@@ -12,14 +12,13 @@ Produto.prototype.desconto = function(quantia) {
 
 
 
-function Caneca (nome, preco, material) {
+/*function Caneca (nome, preco, material) {
     Produto.call(this,nome, preco)
     this.material = material;
 }
 
 const caneca = new Caneca ("Caneca", 2.50, "Porcelana");
-console.log(caneca);
-
+console.log(caneca);*/
 
 
 
