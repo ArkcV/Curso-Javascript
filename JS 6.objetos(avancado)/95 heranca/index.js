@@ -18,8 +18,7 @@ Produto.prototype.desconto = function(quantia) {
 }
 
 const caneca = new Caneca ("Caneca", 2.50, "Porcelana");
-console.log(caneca);*/
-
+console.log(caneca);*/7
 
 
 function Camiseta (nome, preco, cor) {
