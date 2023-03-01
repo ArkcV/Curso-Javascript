@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/JS 6.objetos(avancado)/99polimorfismo/index.js"
+            "program": "${workspaceFolder}/JS 6.objetos(avancado)/101. objeto map/index.js"
         }
     ]
 }
