@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/106 usando classes (validando Cpf)/index.js"
+            "program": "${workspaceFolder}/105 Metodos de instancia e estaticos/index.js"
         }
     ]
 }
