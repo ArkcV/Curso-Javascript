@@ -1,5 +1,5 @@
 // Ela e igual a funcao construtora
-// Ela ja linka autmaticamente faz a parte do prototype
+// Ela ja linka automaticamente faz a parte do prototype
 
 class Pessoa {
     constructor(nome, sobrenome){

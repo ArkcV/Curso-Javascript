@@ -1,7 +1,3 @@
-// estaticos sao metodos quevoce pode acessar na classe sem instaciar a classe 
-//sem ultilizar a palavra new eles tambem nao vao estar disponivel dentro da instancia
-// sao como funcoes dentro da classe
-
 
 class ControleRemoto {
     constructor(tv) {
@@ -26,13 +22,11 @@ class ControleRemoto {
 }
 
 
-
-
 const controle1 = new ControleRemoto('LG')
 controle1.aumentarVolume();//instacia
 console.log(controle1);
 
-ControleRemoto.trocaPilha();// statico
+ControleRemoto.trocaPilha();// estatico
 
 
 
